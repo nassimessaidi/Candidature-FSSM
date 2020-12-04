@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap");
+
+ul {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    height: 2000px;   
+}
+
+.first-jumbotron {
+    background-color: #e7e7e7;
+}
+
+.jumbotron {
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+
+.jumbotron img {
+    height: 150px;
+}
+
+.head {
+    padding: 15px;
+}
+
+.head h2 {
+    color: #96572d;
+}
+
+.alert-info-link {
+    color: #062c33;
+}
+
+.nav-item a {
+    margin-bottom: 0;
+    color: #fff!important;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+.nav-item a:hover {
+    color: #96572d!important;
+}
+
+.table thead th {
+    vertical-align: middle;
+}
+
+
+/*
+.logo {
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.main {
+    background-color: #e6e6e6;
+    height: 1000px;
+    border-radius: 30px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.head > * {
+    line-height: 1.2;
+}
+
+.head h2 {
+    color: #96572d;
+}
+
+.nav-bar {
+    width: 100%;
+    background: green;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu li {
+
+}
+
+.menu a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.active a:first-child {
+    color: yellow;
+}
+
+.menu a:hover {
+    color: yellow;
+    text-decoration: none;
+}
